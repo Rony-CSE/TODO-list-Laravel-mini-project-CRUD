@@ -9,7 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Styles -->
         <style>
             html, body {
@@ -48,6 +48,7 @@
             .title {
                 font-size: 84px;
             }
+            .ron{ color: white; }
 
             .links > a {
                 color: #636b6f;
@@ -79,17 +80,19 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    TODO list mini project<br>
+                    <a href="todo" class="btn btn-success">Go Ahead</a>
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://www.facebook.com/abuhena.cse.3000">facebook</a>
+                    <a href="https://www.linkedin.com/in/engrabuhena">linkedin</a>
+                    <a href="https://plus.google.com/u/0/+AbuhenaRony3000">google-plus</a>
+                    <a href="https://twitter.com/engrAbuhena">twitter</a>
+                    <a href="https://github.com/Rony-CSE">GitHub</a>
                 </div>
             </div>
         </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
