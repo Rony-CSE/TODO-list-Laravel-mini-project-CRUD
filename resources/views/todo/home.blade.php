@@ -8,9 +8,8 @@
 	<ul class="list-group">
 		@foreach($todos as $todo)
   			<li class="list-group-item">
-  				{{ $todo->title }}
+  				<a href="{{'/todo/'.$todo->id}}">{{ $todo->title }}</a>
   				<span class="pull-right">{{$todo->created_at->diffForHumans()}}</span><br>
-   				{{ $todo->body }}
 
    			
   			</li>

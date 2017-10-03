@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\todo;
+use \App\todo;
 
 class TodoController extends Controller
 {
@@ -55,7 +55,8 @@ class TodoController extends Controller
      */
     public function show($id)
     {
-        //
+        $todo = todo::find($id);
+        return view('todo.show',compact('todo'));
     }
 
     /**
