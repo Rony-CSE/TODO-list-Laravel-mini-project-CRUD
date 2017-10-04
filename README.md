@@ -57,3 +57,20 @@ What I have done in this mini project
 # add Mutator
 	into todo.php file to make the uppercase of first letter
 	
+	
+# UPDATE
+# add edit option
+	into todo.home page
+	
+# add @yield 
+	into todo.create page
+	
+# create todo.edit page
+	extends all from todo.create page
+	
+# modify edit function
+	into TodoController
+	
+# modify update function
+	into TodoController
+	
