@@ -46,7 +46,7 @@ What I have done in this mini project
 
 -------------------CRUD-----------------------
 # CREATE
-# add title
+## add title
 	into todo.create page
 	into database.php
 	update database
@@ -54,23 +54,36 @@ What I have done in this mini project
 	into todo.home page
 	update store function into TodoController
 	
-# add Mutator
+## add Mutator
 	into todo.php file to make the uppercase of first letter
 	
 	
 # UPDATE
-# add edit option
+## add edit option
 	into todo.home page
 	
-# add @yield 
+## add @yield 
 	into todo.create page
 	
-# create todo.edit page
+## create todo.edit page
 	extends all from todo.create page
 	
-# modify edit function
+## modify edit function
 	into TodoController
 	
-# modify update function
+## modify update function
 	into TodoController
 	
+## How to use
+
+
+Clone repo
+
+	git clone https://github.com/webdevmatics/ecom.git
+Install the composer dependencies
+
+	composer install
+Set application key
+
+	php artisan key:generate        
+Configure .env and migrate
