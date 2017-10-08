@@ -99,6 +99,9 @@ class TodoController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $todo = todo::find($id);
+        $todo->delete();
+        session()->flash('message','Deleted successfully');
+        return redirect('todo');
     }
 }
