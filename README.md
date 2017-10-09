@@ -74,7 +74,7 @@ What I have done in this mini project
 ## modify update function
 	into TodoController
 	
-## How to use
+# How to use
 
 
 Clone repo
