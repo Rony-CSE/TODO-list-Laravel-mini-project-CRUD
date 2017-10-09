@@ -73,7 +73,16 @@ What I have done in this mini project
 	
 ## modify update function
 	into TodoController
+# DELETE
+## add delete option
+	into todo.home page
 	
+## update delete function
+	into the TodosController
+	
+## add flush session
+	into todo.home page
+
 # How to use
 
 
