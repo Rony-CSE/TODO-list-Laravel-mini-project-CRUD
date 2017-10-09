@@ -3,6 +3,8 @@
 @section('body')
 
     <br>
+    @include('todo.partials.message')
+
     <div class="col-lg-8 col-lg-offset-2 jumbotron">
         <a href="todo/create" class="btn btn-info">Add New</a>
         <center><h2>Todo lists</h2></center>

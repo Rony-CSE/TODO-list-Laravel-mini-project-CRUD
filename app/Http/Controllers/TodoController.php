@@ -44,6 +44,7 @@ class TodoController extends Controller
         $todo->body = $request->body;
         $todo->title = $request->title;
         $todo->save();
+        session()->flash('message','Stored successfully');
         return redirect('todo');
     }
 
@@ -88,6 +89,7 @@ class TodoController extends Controller
         $todo->body = $request->body;
         $todo->title = $request->title;
         $todo->save();
+        session()->flash('message','Updated successfully');
         return redirect('todo');
     }
 
