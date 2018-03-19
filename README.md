@@ -88,7 +88,7 @@ What I have done in this mini project
 
 Clone repo
 
-	git clone https://github.com/webdevmatics/ecom.git
+	git clone https://github.com/Rony-CSE/TODO-list-Laravel-mini-project-CRUD
 Install the composer dependencies
 
 	composer install
@@ -96,3 +96,5 @@ Set application key
 
 	php artisan key:generate        
 Configure .env and migrate
+
+	php artisan migrate
