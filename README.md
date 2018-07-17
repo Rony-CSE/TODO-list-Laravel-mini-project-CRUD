@@ -1,6 +1,16 @@
 # --------------- TODO list laravel mini project ----------------- #
 What I have done in this mini project
 
+### Features: Laravel framework, Bootstrap
+### Description:
+	On the home page you can see all todos.
+	From here you can go all the pages.
+	When click the title it will take to its own View page.
+	When you click the edit icon, it will take you to the edit page, where you edit the title and the body of
+	the todo.
+	If you click the delete icon, the todo will be deleted.
+	If you click the “Add New” button it will take you to the create new todo page, where you can add a
+	new todo to the database.
 
 ### layout page
 	layout.app
