@@ -2,51 +2,51 @@
 What I have done in this mini project
 
 
-# layout page
+### layout page
 	layout.app
 
-# resource controller
+### resource controller
 	php artisan make:controller TodoController --resource
 
-# home page
+### home page
 	display all lists
 
-# create page
+### create page
 	form
 	textarea
 	submit button
 	form action
 	csrf - validation
 
-# migration
-# model
+### migration
+### model
 	php artisan make:model todo -m
 
-# database
+### database
 	php artisan migrate
 
 ==============================================
 
 
-# save data to database
+### save data to database
 	edit the store function of TodoController
 	
-# validation
+### validation
 	add validate() to the store function of TodoController
 
-# display errors
+### display errors
 	add condition into todo.create
 
-# created at data with carbon
+### created at data with carbon
 	add diffForHumans() into todo.home 
 
-# trim data
+### trim data
 
 ==============================================
 
 -------------------CRUD-----------------------
-# CREATE
-## add title
+## CREATE
+### add title
 	into todo.create page
 	into database.php
 	update database
@@ -54,36 +54,36 @@ What I have done in this mini project
 	into todo.home page
 	update store function into TodoController
 	
-## add Mutator
+### add Mutator
 	into todo.php file to make the uppercase of first letter
 	
 	
-# UPDATE
-## add edit option
+## UPDATE
+### add edit option
 	into todo.home page
 	
-## add @yield 
+### add @yield 
 	into todo.create page
 	
-## create todo.edit page
+### create todo.edit page
 	extends all from todo.create page
 	
-## modify edit function
+### modify edit function
 	into TodoController
 	
-## modify update function
+### modify update function
 	into TodoController
-# DELETE
-## add delete option
+## DELETE
+### add delete option
 	into todo.home page
 	
-## update delete function
+### update delete function
 	into the TodosController
 	
-## add flush session
+### add flush session
 	into todo.home page
 
-# How to use
+## How to use
 
 
 Clone repo
